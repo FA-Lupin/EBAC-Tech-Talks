@@ -8,18 +8,89 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>    
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
+            <img class="hero__logo" src="./images/painel.20230829133317.jpg" alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+                Derrepente 30 em... <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua dos bobos 
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Número</b>
+                        N° 0
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        20/12/2023 ás 25hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua Presença
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Aniversariante</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut natus quia suscipit maiores fugiat quo nisi voluptatum ipsam sint soluta laboriosam, totam provident minima unde! Omnis, perspiciatis. Voluptatem, itaque!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, placeat optio eveniet neque maiores repellendus obcaecati doloribus magni ipsa beatae quam, adipisci fugiat nemo ad non tempore sapiente. Hic, ea.
+                </p>
+            </div>
+            <img  class="event_image" src="images/Felipe-Augusto.png" alt="front-end">
+        </div>
+    </section>
 
+    <section class="event event--ux-ui event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Atração 1</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut natus quia suscipit maiores fugiat quo nisi voluptatum ipsam sint soluta laboriosam, totam provident minima unde! Omnis, perspiciatis. Voluptatem, itaque!
+                </p>
+            </div>
+            <img  class="event_image" src="images/sodapdf-converted (1).png" alt="front-end">
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Atração 2</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut natus quia suscipit maiores fugiat quo nisi voluptatum ipsam sint soluta laboriosam, totam provident minima unde! Omnis, perspiciatis. Voluptatem, itaque!
+                </p>
+            </div>
+            <img  class="event_image" src="images/sodapdf-converted.png" alt="front-end">
+        </div>
+    </section>
+
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Atração 3</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut natus quia suscipit maiores fugiat quo nisi voluptatum ipsam sint soluta laboriosam, totam provident minima unde! Omnis, perspiciatis. Voluptatem, itaque!
+                </p>
+            </div>
+            <img  class="event_image" src="images/sodapdf-converted (2).png" alt="front-end">
+        </div>
+    </section>
+
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
