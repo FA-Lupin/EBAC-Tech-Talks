@@ -6,19 +6,19 @@
 
     
     &--frontend {
-        background-image: linear-gradient(variables.$purple, variables.$yellow);
+        background-image: linear-gradient(variables.$blue1, variables.$ice1);
     }
 
     &--ux-ui {
-        background-image: linear-gradient(variables.$yellow, variables.$purple);
+        background-image: linear-gradient(variables.$ice1, variables.$blue1);
     }
 
     &--data-science {
-        background-image: linear-gradient(variables.$purple, variables.$yellow);
+        background-image: linear-gradient(variables.$blue1, variables.$ice1);
     }
 
     &--backend {
-        background-image: linear-gradient(variables.$yellow, variables.$purple);
+        background-image: linear-gradient(variables.$ice1, variables.$blue1);
     }
 
     &--image-left {
